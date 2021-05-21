@@ -1,0 +1,34 @@
+h1 {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    color: #2F2F2F;
+}
+h1 span{
+    color: #2761FF;
+}
+#intruduction{
+    height: 589px;
+    background-repeat: no-repeat;
+    background-position: right bottom, right bottom;
+    background-position-y: 0, 180px;
+    padding-left: 270px;
+    margin-top: -50px;
+    background-image: url("../images/depositphotos_193028296-stock-photo-portrait-smiling-bearded-pilot-uniform-removebg-preview 1.png"), url("../images/Oval.png");
+}
+#intruduction button{
+    background-color: #2761FF;
+    color: white;
+    font-size: 22px;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 262px;
+    height: 64px;
+    border-radius: 10px;
+    border: none;
+}
+p{
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #7D7D7D;
+}

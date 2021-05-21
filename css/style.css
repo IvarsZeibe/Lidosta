@@ -24,3 +24,8 @@ nav a:hover{
     border-radius: 6px;
     padding: 5px 20px 5px 20px;
 }
+.open-tab{
+    background-image: url("../images/Rectangle.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
