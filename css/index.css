@@ -31,6 +31,13 @@ h1 span{
     border-radius: 10px;
     border: none;
 }
+#intruduction button:hover{
+    cursor: pointer;
+    background-color: #5582ff;
+}
+#intruduction button:active{
+    background-color: #7095fd;
+}
 #featured-airports{
     background-color: #FAFAFA;
     padding-top: 40px;
@@ -110,15 +117,20 @@ p{
 #our-services div p{
     font-size: 16px;
 }
-#our-services button{
-    border: none;
-    background-color: transparent;
+#our-services a{
     color: #2761FF;
     font-size: 17px;
     font-weight: bold;
+    text-decoration: none;
     padding: 0;
     position: absolute;
     bottom: 50px;
+}
+#our-services a:hover{
+    text-decoration: underline;
+}
+#our-services a img{
+    vertical-align: text-bottom;
 }
 #our-services div button img{
     display: inline;
