@@ -1,3 +1,9 @@
+*{
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin: 0px;
+}
 h1 {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 56px;
@@ -20,15 +26,124 @@ h1 span{
     background-color: #2761FF;
     color: white;
     font-size: 22px;
-    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 262px;
     height: 64px;
     border-radius: 10px;
     border: none;
 }
+#featured-airports{
+    background-color: #FAFAFA;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+#featured-airports h2{
+    color: #373737cb;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+#featured-airports img{
+    margin-left: 200px;
+}
+#featured-airports img:last-child{
+    margin-left: 150px;
+}
+.current-featured-airports{
+    margin-top: 60px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    color: transparent;
+    background-image: url(../images/Oval.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.not-featured-airports{
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 10px;
+    height: 10px;
+    border: none;
+    color: transparent;
+    background-image: url(../images/oval_gray.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 p{
-    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 22px;
     font-weight: 600;
     color: #7D7D7D;
+}
+#our-services{
+    text-align: center;
+    line-height: 200%;
+}
+#our-services h2 h3{
+    font-weight: 800;
+    color: #2F2F2F;
+}
+#our-services h2{
+    font-size: 37px;
+}
+#our-services h3{
+    font-size: 24px;
+}
+#our-services p{
+    color: #7D7D7D;
+    font-size: 22px;
+}
+#our-services div:first-of-type{
+    margin-right: 50px;
+}
+#our-services div{
+    width: 344px;
+    height: 311px;
+    display: inline-block;
+    box-shadow: 0px 0px 40px 10px #f5f5f5;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: left;
+    padding: 50px;
+    position: relative;
+}
+#our-services div p{
+    font-size: 16px;
+}
+#our-services button{
+    border: none;
+    background-color: transparent;
+    color: #2761FF;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0;
+    position: absolute;
+    bottom: 50px;
+}
+#our-services div button img{
+    display: inline;
+    vertical-align: bottom;
+}
+#our-services > img:last-child{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer{
+    background-color: #2761FF;
+    height: 346px;
+    padding: 20px 100px 20px 100px;
+    vertical-align: middle;
+}
+#footer{
+    font-size: 18px;
+    color: white;
+    line-height: 200%;
+    font-weight: normal;
+}
+#footer span{
+    float: right;
 }
