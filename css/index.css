@@ -1,9 +1,6 @@
 *{
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-body{
-    margin: 0px;
-}
 h1 {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 56px;
@@ -33,10 +30,10 @@ h1 span{
 }
 #intruduction button:hover{
     cursor: pointer;
-    background-color: #5582ff;
+    background-color: #3b6efa;
 }
 #intruduction button:active{
-    background-color: #7095fd;
+    background-color: #5884fc;
 }
 #featured-airports{
     background-color: #FAFAFA;
@@ -85,9 +82,9 @@ p{
 #our-services{
     text-align: center;
     line-height: 200%;
+    padding-top: 100px;
 }
-#our-services h2 h3{
-    font-weight: 800;
+#our-services h2, #our-services h3{
     color: #2F2F2F;
 }
 #our-services h2{
@@ -99,6 +96,9 @@ p{
 #our-services p{
     color: #7D7D7D;
     font-size: 22px;
+}
+#our-services > p{
+    margin-bottom: 100px;
 }
 #our-services div:first-of-type{
     margin-right: 50px;
@@ -132,10 +132,6 @@ p{
 #our-services a img{
     vertical-align: text-bottom;
 }
-#our-services div button img{
-    display: inline;
-    vertical-align: bottom;
-}
 #our-services > img:last-child{
     margin-top: 70px;
     margin-bottom: 100px;
@@ -146,8 +142,7 @@ p{
 
 #footer{
     background-color: #2761FF;
-    height: 346px;
-    padding: 20px 100px 20px 100px;
+    padding: 0px 100px 40px 100px;
     vertical-align: middle;
 }
 #footer{
@@ -158,4 +153,40 @@ p{
 }
 #footer span{
     float: right;
+}
+#analyse-manage{
+    background-color: #FAFAFA;
+    text-align: center;
+    padding-top: 100px;
+}
+#analyse-manage h2{
+    color: #252525;
+    font-size: 37px;
+    margin: 0;
+}
+#analyse-manage button{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    background-color: #2761FF;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    border-radius: 10px;
+}
+#analyse-manage button:hover{
+    cursor: pointer;
+    background-color: #3b6efa;
+}
+#analyse-manage button:active{
+    background-color: #5884fc;
+}
+#analyse-manage button img{
+    vertical-align: text-bottom;
+    filter: brightness(0) invert(1);
+}
+#analyse-manage > img{
+    margin-bottom: 200px;
 }
