@@ -31,3 +31,55 @@ nav a:hover{
     background-position: left bottom;
     background-repeat: no-repeat;
 }
+.delete-button{
+    background-color: #FF8787;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 4px;
+    border: none;
+}
+.delete-button:hover{
+    background-color: #fc9c9c;
+}
+.delete-button:active{
+    background-color: #fdaaaa;
+}
+.add-button{
+    background-color: #87CDFF;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 4px;
+    border: none;
+}
+.add-button:hover{
+    background-color: #9ad4fd;
+}
+.add-button:active{
+    background-color: #a6daff;
+}
+.cancel-button{
+    background-color: #c5c5c5;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 4px;
+    border: none;
+}
+.cancel-button:hover{
+    background-color: #d1d1d1;
+}
+.cancel-button:active{
+    background-color: #e2e2e2;
+}
+.save-button{
+    background-color: #85B204;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 4px;
+    border: none;
+}
+.save-button:hover{
+    background-color: #98ce06;
+}
+.save-button:active{
+    background-color: #a6e005;
+}
