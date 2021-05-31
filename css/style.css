@@ -40,6 +40,9 @@ nav a:hover{
     color: black;
     display: inline-block;
 }
+.delete-button:hover, .add-button:hover, .cancel-button:hover, .save-button:hover{
+    cursor: pointer;
+}
 .delete-button{
     background-color: #FF8787;
     font-size: 20px;
@@ -52,7 +55,7 @@ nav a:hover{
 }
 .add-button{
     background-color: #87CDFF;
-    font-size: 24px;
+    font-size: 20px;
 }
 .add-button:hover{
     background-color: #9ad4fd;
@@ -62,7 +65,7 @@ nav a:hover{
 }
 .cancel-button{
     background-color: #c5c5c5;
-    font-size: 24px;
+    font-size: 20px;
 }
 .cancel-button:hover{
     background-color: #d1d1d1;
@@ -72,7 +75,7 @@ nav a:hover{
 }
 .save-button{
     background-color: #85B204;
-    font-size: 24px;
+    font-size: 20px;
 }
 .save-button:hover{
     background-color: #98ce06;
